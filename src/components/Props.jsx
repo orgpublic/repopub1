@@ -22,7 +22,7 @@ function Props3(props) {
       <h1>{props.title}</h1>
       Locations :{" "}
       {props.locations.map((location) => (
-        <p>{location}</p>
+        <p key={location}>{location}</p>
       ))}
     </>
   );
