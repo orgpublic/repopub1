@@ -1,12 +1,7 @@
 import react from "react";
 
-const MainContent = () => {
-  const user = {
-    name: "John Doe",
-    email: "john.doe@example.com",
-    picture:
-      "https://media.istockphoto.com/id/1388253782/photo/positive-successful-millennial-business-professional-man-head-shot-portrait.jpg?b=1&s=612x612&w=0&k=20&c=VsTsa0kjyZ7ALe-nyKAUfynyRxZo8H4LRMdu_ecPuOY=",
-  };
+const MainContent = ({ user }) => {
+  console.log(user);
   return (
     <>
       <div className="bg-gray-200 p-4">
