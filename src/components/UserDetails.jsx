@@ -6,8 +6,8 @@ const UserDetails = () => {
   return (
     <>
       <div className="bg-gray-200 p-4">
-        <div className="flex items-center space-x-4 text-color-red text-gray-500">
-          <table>
+        <div className="items-center space-x-4 text-color-red text-gray-500">
+          <table className="table-auto">
             <tbody>
               <tr>
                 <td>UserId : {param.id}</td>

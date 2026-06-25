@@ -7,10 +7,8 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <div className="container mx-auto p-4">
-          <NavBar />
-          <div className="bg-gray-400 p-4">Footer</div>
-        </div>
+        <NavBar />
+        <div className="bg-gray-400 p-4 flex flex-row">{Date()}</div>
       </BrowserRouter>
     </>
   );

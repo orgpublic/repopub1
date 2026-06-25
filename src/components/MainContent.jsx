@@ -30,7 +30,9 @@ const MainContent = () => {
                 className="w-16 h-16 rounded-full"
               />
               <div>
-                <h2 className="text-gray-600 text-lg font-semibold">{user.name}</h2>
+                <h2 className="text-gray-600 text-lg font-semibold">
+                  {user.name}
+                </h2>
                 <p className="text-gray-600">{user.email}</p>
               </div>
             </div>

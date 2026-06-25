@@ -7,12 +7,12 @@ import UserDetails from "./UserDetails";
 const NavBar = () => {
   return (
     <>
-      <div className="bg-gray-800 text-white p-4">
+      <div className="bg-gray-800 text-white p-4 flex flex-row gap-4">
         <Link to="/">Home</Link>
-        <Link to="/userlist" className="p-10">User List</Link>
-        <Link to="/usestate" className="p-10">
-          UseState
-        </Link>
+        <Link to="/userlist">User List</Link>
+        <Link to="/usestate">UseState</Link>
+      </div>
+      <div className="flex flex-row">
         <Routes>
           <Route path="/" element={<MainContent />}></Route>
           <Route path="/usestate" element={<UseStatehook />}></Route>

@@ -13,24 +13,24 @@ const UserList = () => {
     <>
       <div className="bg-gray-200 p-4">
         <div className="text-gray-600">
-          <p className="font-bold">Dynamic Routing</p>
-          <table>
+          <table className="table-auto border-spacing-2 border-separate border border-gray-400 dark:border-gray-500">
+            <caption className="caption-top font-bold">Dynamic Routing</caption>
             <thead>
               <tr className=" font-bold">
-                <th>Id</th>
-                <th>Name</th>
-                <th>Age</th>
+                <th className="border border-gray-300">Id</th>
+                <th className="border border-gray-300">Name</th>
+                <th className="border border-gray-300">Age</th>
               </tr>
             </thead>
             <tbody>
               {users.map((user, index) => {
                 return (
                   <tr key={user.id}>
-                    <td>
+                    <td className="border border-gray-300">
                       <Link to={"/userlist/" + user.id}>{user.id}</Link>
                     </td>
-                    <td>{user.name} </td>
-                    <td> {user.age} </td>
+                    <td className="border border-gray-300">{user.name} </td>
+                    <td className="border border-gray-300"> {user.age} </td>
                   </tr>
                 );
               })}
