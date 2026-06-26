@@ -7,21 +7,21 @@
   {
     "name": "Jane Smith",
     "email": "jane.smith@example.com",
-    "picture": "https://media.istockphoto.com/id/1388253782/photo/positive-successful-millennial-business-professional-man-head-shot-portrait.jpg?b=1&s=612x612&w=0&k=20&c=VsTsa0kjyZ7ALe-nyKAUfynyRxZo8H4LRMdu_ecPuOY="
+    "picture": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/78.jpg"
   },
   {
     "name": "Michael Chang",
     "email": "michael.chang@example.com",
-    "picture": "https://media.istockphoto.com/id/1388253782/photo/positive-successful-millennial-business-professional-man-head-shot-portrait.jpg?b=1&s=612x612&w=0&k=20&c=VsTsa0kjyZ7ALe-nyKAUfynyRxZo8H4LRMdu_ecPuOY="
+    "picture": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/4.jpg"
   },
   {
     "name": "Aisha Rahman",
     "email": "aisha.rahman@example.com",
-    "picture": "https://media.istockphoto.com/id/1388253782/photo/positive-successful-millennial-business-professional-man-head-shot-portrait.jpg?b=1&s=612x612&w=0&k=20&c=VsTsa0kjyZ7ALe-nyKAUfynyRxZo8H4LRMdu_ecPuOY="
+    "picture": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/14.jpg"
   },
   {
     "name": "Carlos Mendez",
     "email": "carlos.mendez@example.com",
-    "picture": "https://media.istockphoto.com/id/1388253782/photo/positive-successful-millennial-business-professional-man-head-shot-portrait.jpg?b=1&s=612x612&w=0&k=20&c=VsTsa0kjyZ7ALe-nyKAUfynyRxZo8H4LRMdu_ecPuOY="
+    "picture": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/2.jpg"
   }
 ]

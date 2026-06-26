@@ -11,12 +11,12 @@ const UserList = () => {
   ];
   return (
     <>
-      <div className="bg-gray-200 p-4">
+      <div className="p-4">
         <div className="text-gray-600">
-          <table className="table-auto border-spacing-2 border-separate border border-gray-400 dark:border-gray-500">
+          <table className="table-auto m-4 border-spacing-2 border-separate border border-gray-400 dark:border-gray-500">
             <caption className="caption-top font-bold">Dynamic Routing</caption>
             <thead>
-              <tr className=" font-bold">
+              <tr className="font-bold">
                 <th className="border border-gray-300">Id</th>
                 <th className="border border-gray-300">Name</th>
                 <th className="border border-gray-300">Age</th>

@@ -22,8 +22,8 @@ const MainContent = () => {
     <>
       {users.map((user, index) => {
         return (
-          <div className="bg-gray-200 p-4" key={user.email}>
-            <div className="flex items-center space-x-4">
+          <div className="flex flex-col p-4" key={user.email}>
+            <div className="flex-1 items-center space-x-4">
               <img
                 src={user.picture}
                 alt="User"

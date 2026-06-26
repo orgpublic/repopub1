@@ -7,14 +7,12 @@ const ApiCall = () => {
   async function getDataUsingFetch() {
     const response = await fetch("https://lorem-api.com/api/users");
     const data = await response.json();
-    console.log(data);
     setUserData(data);
   }
 
   const getDatUsingAxios = async () => {
     const response = await axios.get("https://picsum.photos/v2/list");
     const data = response.data;
-    console.log(data);
     setPhotoList(data);
   };
   return (
@@ -43,7 +41,12 @@ const ApiCall = () => {
                 <td className="border pl-2 pr-2">{userData.id}</td>
                 <td className="border pl-2 pr-2">{userData.name}</td>
                 <td className="border pl-2 pr-2">{userData.email}</td>
-                <td className="border pl-2 pr-2"><img src={userData.avatar} className="rounded-2xl h-20 w-20 p-2"/></td>
+                <td className="border pl-2 pr-2">
+                  <img
+                    src={userData.avatar}
+                    className="rounded-2xl h-20 w-20 p-2"
+                  />
+                </td>
               </tr>
             </tbody>
           </table>
@@ -71,7 +74,12 @@ const ApiCall = () => {
                   <tr key={index} className="border">
                     <td className="border pl-2 pr-2">{photo.author}</td>
                     <td className="border pl-2 pr-2">{photo.url}</td>
-                    <td className="border pl-2 pr-2"><img src={photo.download_url} className="rounded-2xl h-20 w-20 p-2"/></td>
+                    <td className="border pl-2 pr-2">
+                      <img
+                        src={photo.download_url}
+                        className="rounded-2xl h-20 w-20 p-2"
+                      />
+                    </td>
                   </tr>
                 );
               })}
