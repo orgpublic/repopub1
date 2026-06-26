@@ -23,9 +23,9 @@ const NavBar = () => {
           <Route path="/apicall" element={<ApiCall />}></Route>
           <Route path="/userlist" element={<UserList />}></Route>
           <Route path="/userlist/:id" element={<UserDetails />}></Route>
-          <Route path="/routing" element={<Routing/>}></Route>
-          <Route path="/usestatehook" element={<UseStatehook/>}></Route>
-          <Route path="/contextapi" element={<ContextApi/>}></Route>
+          <Route path="/routing" element={<Routing />}></Route>
+          <Route path="/usestatehook" element={<UseStatehook />}></Route>
+          <Route path="/contextapi" element={<ContextApi />}></Route>
         </Routes>
       </div>
     </>
